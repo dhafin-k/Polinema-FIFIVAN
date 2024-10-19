@@ -1,0 +1,286 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/output.css">
+    <link rel="stylesheet" href="style/global.css">
+
+    <title>Papuma</title>
+</head>
+<body class="m-0 p-0 bg-[#000000] " >
+    
+    <nav class="p-4 fixed w-full z-50 md:h-20" id="nav">
+        <div class="container mx-auto flex justify-between items-center md:mt-2">
+            <img class="w-24 h-10 ml-3" src="image/logo.png" alt="">  
+            <ul class="hidden md:flex space-x-4 font-montserrat font-semibold gap-5 text-white md:mr-10" id="menu">
+                <li><a href="#home" class="transition ease-in-out delay-150 hover:text-sky-700">Home</a></li>
+                <li><a href="#about" class="transition ease-in-out delay-150 hover:text-sky-700">Tentang</a></li>
+                <li><a href="#spot" class="transition ease-in-out delay-150 hover:text-sky-700">Spot</a></li>
+                <li><a href="#sejarah" class="transition ease-in-out delay-150 hover:text-sky-700">Sejarah</a></li>
+                <li><a href="#galeri" class="transition ease-in-out delay-150 hover:text-sky-700">Galeri</a></li>
+                <li><a href="#kontak" class="transition ease-in-out delay-150 hover:text-sky-700">Kontak Kami</a></li>
+            </ul>
+            
+            <div class="md:hidden text-white cursor-pointer" id="hamburger">
+                &#9776;
+            </div>
+        </div>
+
+        <div class="md:hidden" id="mobile-menu" style="display: none;">
+            <ul class="flex flex-col bg-transparent p-4 space-y-2">
+                <li><a href="#home" class="text-black hover:underline">Home</a></li>
+                <li><a href="#about" class="text-black hover:underline">Tentang</a></li>
+                <li><a href="#spot" class="text-black hover:underline">Spot</a></li>
+                <li><a href="#sejarah" class="text-black hover:underline">sejarah</a></li>
+                <li><a href="#galeri" class="text-black hover:underline">Galeri</li>
+                <li><a href="#kontak" class="text-black hover:underline">Kontak Kami</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    
+    
+    <!-- HOME DESIGN -->
+    <section id="home" class=" grid place-content-center w-screen h-screen">
+        
+        <img src="image/home.jpg" alt="" class="absolute -z-10 w-full h-full opacity-75 object-cover">
+            
+        <h1 class="-mt-9 font-montserrat font-bold leading-none text-center text-white text-[2rem] md:text-8xl overflow-y-hidden">PANTAI PAPUMA</h1>
+
+        <p class="font-medium font-montserrat text-slate-50 text-center text-[10px] md:text-xl">Desa Lojojer, Kec.Wuluhan, Kab.Jember, Jawa Timur, Indonesia</p>
+
+    </section>
+
+
+
+    <!-- TENTANG DESIGN -->
+    <section id="about" class="bg-[#DBDBDB] w-screen h-[670px] md:h-[680px] block text-center p-10 md:flex justify-center overflow-y-hidden">
+
+        <div class=" md:w-[55%] md:h-auto md:pt-14 ">
+            <h1 class="font-montserrat font-extrabold text-3xl mb-10 md:text-7xl overflow-y-hidden">TENTANG</h1>
+    
+            <p class="font-montserrat font-medium text-xs md:text-xl">Pantai Papuma di Jember, Jawa Timur, adalah destinasi wisata populer dengan pasir putih, dan pemandangan matahari terbenam yang memukau. Nama "Papuma" merupakan singkatan dari “Pasir Putih Malikan”, menggambarkan keindahan pantai ini. Selain menikmati panorama alam, wisatawan dapat beraktivitas seperti snorkeling, mendaki bukit, atau menikmati hidangan laut segar. Dengan fasilitas yang terus berkembang, Pantai Papuma siap memberikan pengalaman liburan yang tak terlupakan.
+            </p>
+
+            <div class="h-10 w-full flex justify-center items-center gap-6 font-semibold text-2xl overflow-hidden md:mt-10 md:h-20 md:text-5xl md:gap-11">
+                <a href="" class="w-10 h-10 flex items-center justify-center transition-transform duration-1000ms delay-150 ease-in-out hover:text-sky-700 hover:scale-125 md:h-20 md:w-20"><i class='bx bxl-instagram'></i></a>
+                <a href="" class="w-10 h-10 flex items-center justify-center transition duration-1000 delay-150 ease-in-out hover:text-sky-700 hover:scale-125 md:h-20 md:w-20"><i class='bx bxl-youtube'></i></a>
+                <a href="" class="w-10 h-10 flex items-center justify-center transition duration-1000 delay-150ease-in-out hover:text-sky-700 hover:scale-125 md:h-20 md:w-20"><i class='bx bxl-whatsapp' ></i></a>
+                <!-- <i class='bx bxl-youtube'></i>
+                <i class='bx bxl-whatsapp' ></i> -->
+            </div>
+
+        </div>
+
+        <div class="w-full h-[330px] flex justify-center items-center md:w-[45%] md:h-auto overflow-y-hidden">
+             <div style="background-image: url(image/about.jpg);" class="w-[230px] h-[280px] rounded-xl bg-no-repeat bg-cover bg-center flex justify-center items-center transition-transform duration-700 ease-in-out hover:scale-110 md:w-[350px] md:h-[480px] md:scale-95 group">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SPOT DESIGN -->
+    <section id="spot" class="mt-5 w-screen h-[450px] bg-[#DBDBDB] block p-10 overflow-y-hidden relative  md:h-[670px]">
+        <h1 class="font-montserrat font-extrabold text-3xl md:text-7xl mt-20 overflow-y-hidden md:mt-16">SPOT</h1>
+
+            <div id="card" class="flex items-center justify-start w-full h-[97%] md:h-[510px] overflow-x-scroll overflow-y-hidden shrink-0">
+
+                <div class="w-32 h-52 shrink-0 bg-no-repeat bg-cover bg-center block odd:mt-20 even:-mt-10 hover:scale-110 transition-transform rounded-lg group relative flex justify-center items-center hover:overflow-visible md:w-[240px] md:h-[390px] md:ml-10" style="background-image: url(image/spot/spot1.jpeg);">
+                    <div class="absolute translate-y-32 group-hover:-translate-y-[167px] opacity-0 group-hover:opacity-100 bg-gradient-to-r from-cyan-500 to-blue-500 w-24 h-7 rounded-lg text-center mt-32 transition-all duration-500 md:w-40 md:h-10 md:text-2xl md:group-hover:-translate-y-64">Pesisir pantai</div>
+                </div>
+
+                <div class="w-32 h-52 shrink-0 bg-no-repeat bg-cover bg-center ml-7 block odd:mt-20 even:-mt-10 hover:scale-110 transition-transform rounded-lg  group relative flex justify-center items-center hover:overflow-visible md:w-[240px] md:h-[390px]" style=" background-image: url(image/spot/spot2.jpeg);">
+                    <div class="absolute -translate-y-32 group-hover:translate-y-10  opacity-0 group-hover:opacity-100 bg-gradient-to-r from-cyan-500 to-blue-500 w-24 h-7 rounded-lg text-center mt-32 transition-all duration-500 md:w-40 md:h-10 md:text-2xl md:group-hover:translate-y-32">Watu Ulo</div>
+                </div>
+
+                <div class="w-32 h-52 shrink-0 bg-no-repeat bg-cover bg-center ml-7 block odd:mt-20 even:-mt-10 hover:scale-110 transition-transform rounded-lg group relative flex justify-center items-center hover:overflow-visible md:w-[240px] md:h-[390px]" style="background-image: url(image/spot/spot3.png);">
+                    <div class="absolute translate-y-32 group-hover:-translate-y-[167px] opacity-0 group-hover:opacity-100 bg-gradient-to-r from-cyan-500 to-blue-500 w-24 h-7 rounded-lg text-center mt-32 transition-all duration-500 md:w-40 md:h-10 md:text-2xl md:group-hover:-translate-y-64">Di antara batu</div>
+                </div>
+
+                <div class="w-32 h-52 shrink-0 bg-no-repeat bg-cover bg-center ml-7 block odd:mt-20 even:-mt-10 hover:scale-110 transition-transform rounded-lg  group relative flex justify-center items-center hover:overflow-visible md:w-[240px] md:h-[390px]" style=" background-image: url(image/spot/spo5.jpg);">
+                    <div class="absolute -translate-y-32 group-hover:translate-y-10  opacity-0 group-hover:opacity-100 bg-gradient-to-r from-cyan-500 to-blue-500 w-24 h-7 rounded-lg text-center mt-32 transition-all duration-500 md:w-40 md:h-10 md:text-2xl md:group-hover:translate-y-32"> View dekat </div>
+                </div>
+
+                <div class="w-32 h-52 shrink-0 bg-no-repeat bg-cover bg-center ml-7 block odd:mt-20 even:-mt-10 hover:scale-110 transition-transform rounded-lg group relative flex justify-center items-center hover:overflow-visible md:w-[240px] md:h-[390px]" style="background-image: url(image/spot/11spot5.jpg);">
+                    <div class="absolute translate-y-32 group-hover:-translate-y-[167px] opacity-0 group-hover:opacity-100 bg-gradient-to-r from-cyan-500 to-blue-500 w-24 h-7 rounded-lg text-center mt-32 transition-all duration-500 md:w-40 md:h-10 md:text-2xl md:group-hover:-translate-y-64">Pesisir pantai</div>
+                </div>
+
+                <div class="w-32 h-52 shrink-0 bg-no-repeat bg-cover bg-center ml-7 block odd:mt-20 even:-mt-10 hover:scale-110 transition-transform rounded-lg  group relative flex justify-center items-center hover:overflow-visible md:w-[240px] md:h-[390px]" style=" background-image: url(image/spot/11spot6.jpg);">
+                    <div class="absolute -translate-y-32 group-hover:translate-y-10  opacity-0 group-hover:opacity-100 bg-gradient-to-r from-cyan-500 to-blue-500 w-24 h-7 rounded-lg text-center mt-32 transition-all duration-500 md:w-40 md:h-10 md:text-2xl md:group-hover:translate-y-32">Batu karang</div>
+                </div>
+
+                <div class="w-32 h-52 shrink-0 bg-no-repeat bg-cover bg-center ml-7 block odd:mt-20 even:-mt-10 hover:scale-110 transition-transform rounded-lg group relative flex justify-center items-center hover:overflow-visible md:w-[240px] md:h-[390px]" style="background-image: url(image/spot/11spot7.jpg);">
+                    <div class="absolute translate-y-32 group-hover:-translate-y-[167px] opacity-0 group-hover:opacity-100 bg-gradient-to-r from-cyan-500 to-blue-500 w-24 h-7 rounded-lg text-center mt-32 transition-all duration-500 md:w-40 md:h-10 md:text-2xl md:group-hover:-translate-y-64">View atas</div>
+                </div>
+
+                <div class="w-32 h-52 shrink-0 bg-no-repeat bg-cover bg-center ml-7 -mr-10 block odd:mt-20 even:-mt-10 hover:scale-110 transition-transform rounded-lg  group relative flex justify-center items-center hover:overflow-visible md:w-[240px] md:h-[390px] md:mr-10" style=" background-image: url(image/spot/11spot8.jpg);">
+                    <div class="absolute -translate-y-32 group-hover:translate-y-10  opacity-0 group-hover:opacity-100 bg-gradient-to-r from-cyan-500 to-blue-500 w-24 h-7 rounded-lg text-center mt-32 transition-all duration-500 md:w-40 md:h-10 md:text-2xl md:group-hover:translate-y-32"> View Jalan </div>
+                </div>
+            </div>
+        
+    </section>
+    
+
+    <!--SEJARAH DESIGN -->
+    <section id="sejarah" class="w-screen h-[730px] flex flex-col justify-center items-center md:flex-row p-5 bg-no-repeat bg-cover bg-center overflow-y-hidden object-right-bottom md:h-[650px]" style="background-image: url(image/sejara-x4.jpeg);">
+        <h1 class="font-montserrat font-extrabold text-3xl leading-10 md:text-7xl overflow-y-hidden md:float-end md:mt-8">SEJARAH<br><span class="font-medium">Pantai Pasir <br> Putih Malikan</span></h1>
+        <p class="mt-10 md:w-[50%] md:ml-14 md:text-xl">Meskipun Pantai Papuma kini menjadi destinasi wisata populer, pada awalnya, daerah ini hanya dikenal oleh penduduk setempat sebagai area nelayan. Dalam sejarahnya, kawasan ini dulunya digunakan oleh masyarakat untuk mencari hasil laut seperti ikan dan rumput laut. Karena akses yang terbatas, pantai ini jarang dikunjungi oleh wisatawan hingga pertengahan abad ke-20. Pada tahun 1980-an, setelah pemerintah daerah melihat potensi wisata Pantai Papuma, beberapa upaya dilakukan untuk meningkatkan aksesibilitas ke pantai ini. Pembangunan infrastruktur jalan dan fasilitas wisata mulai dikerjakan, sehingga menarik lebih banyak pengunjung baik lokal maupun internasional. Pantai Papuma juga terkenal dengan mitos-mitos lokal yang menambah daya tariknya. Salah satu batu karang besar di sana, yang disebut Batu Malikan, dikaitkan dengan legenda masyarakat setempat. Batu ini dianggap memiliki kekuatan mistis, dan dipercaya dapat memberikan berkah atau perlindungan bagi para nelayan.</p>
+    </section>
+
+
+    <!-- GALERI DESIGN -->
+    <section id="galeri" class="w-screen h-[400px] p-5 block mx-auto text-center pt-10 bg-gradient-to-r from-cyan-500 to-blue-500 md:h-[800px] ">
+        
+        <h1 class="font-montserrat font-extrabold text-3xl md:text-7xl md:mt-10 md:mb-10 overflow-y-hidden">GALERI</h1>
+
+        <div class="container relative justify-center mx-auto w-11/12  md:w-[95%]">
+          <!-- Slide Images -->
+          <div class="mySlides hidden">
+            <img src="image/Galeri/f1.jpg" class="w-full h-56 md:h-96 object-cover" alt="">
+          </div>
+        
+          <div class="mySlides hidden">
+            <img src="image/Galeri/f2.jpg" class="w-full h-56 md:h-96 object-cover" alt="">
+          </div>
+        
+          <div class="mySlides hidden">
+            <img src="image/Galeri/f3.jpg" class="w-full h-56 md:h-96 object-cover" alt="">
+          </div>
+        
+          <div class="mySlides hidden">
+            <img src="image/Galeri/f4.jpg" class="w-full h-56 md:h-96 object-cover" alt="">
+          </div>
+        
+          <div class="mySlides hidden">
+            <img src="image/Galeri/spot13.jpeg" class="w-full h-56 md:h-96 object-cover" alt="">
+          </div>
+        
+          <div class="mySlides hidden">
+            <img src="image/Galeri/spot16.jpg" class="w-full h-56 md:h-96 object-cover" alt="">
+          </div>
+        
+          <div class="mySlides hidden">
+            <img src="image/Galeri/spot17.jpg" class="w-full h-56 md:h-96 object-cover" alt="">
+          </div>
+        
+          <div class="mySlides hidden">
+            <img src="image/Galeri/spot11.jpg" class="w-full h-56 md:h-96 object-cover" alt="">
+          </div>
+        
+          <div class="mySlides hidden">
+            <img src="image/Galeri/spot10.jpg" class="w-full h-56 md:h-96 object-cover" alt="">
+          </div>
+        
+          <div class="mySlides hidden">
+            <img src="image/Galeri/spot12.jpg" class="w-full h-56 md:h-96 object-cover" alt="">
+          </div>
+        
+          <!-- Next and Previous buttons -->
+          <a class="prev absolute top-1/2 left-0 transform -translate-y-1/2 text-white font-bold text-lg bg-gray-800 px-4 py-2 cursor-pointer hover:bg-gray-700" onclick="plusSlides(-1)">❮</a>
+          <a class="next absolute top-1/2 right-0 transform -translate-y-1/2 text-white font-bold text-lg bg-gray-800 px-4 py-2 cursor-pointer hover:bg-gray-700" onclick="plusSlides(1)">❯</a>
+        
+          <!-- Caption -->
+          <div class="caption-container text-center font-montserrat font-bold py-2 -mt-10 text-black">
+            <p id="caption"></p>
+          </div>
+        
+          <!-- Thumbnail images -->
+          <div class="flex space-x-2 overflow-x-auto mt-4 justify-center duration-300">
+            <div class="flex-none w-24 h-16 md:w-32 md:h-20">
+              <img class="demo w-full h-full object-cover cursor-pointer opacity-60 hover:opacity-100" src="image/Galeri/f1.jpg" onclick="currentSlide(1)" alt="Air mengalir yang dilihat hari dekat">
+            </div>
+            <div class="flex-none w-24 h-16 md:w-32 md:h-20">
+              <img class="demo w-full h-full object-cover cursor-pointer opacity-60 hover:opacity-100" src="image/Galeri/f2.jpg" onclick="currentSlide(2)" alt="Sore hari yang Cantik">
+            </div>
+            <div class="flex-none w-24 h-16 md:w-32 md:h-20">
+              <img class="demo w-full h-full object-cover cursor-pointer opacity-60 hover:opacity-100" src="image/Galeri/f3.jpg" onclick="currentSlide(3)" alt="Jarak pemandangan Dari atas">
+            </div>
+            <div class="flex-none w-24 h-16 md:w-32 md:h-20">
+              <img class="demo w-full h-full object-cover cursor-pointer opacity-60 hover:opacity-100" src="image/Galeri/f4.jpg" onclick="currentSlide(4)" alt="Bermain Ayunan di sore hari ">
+            </div>
+            <div class="flex-none w-24 h-16 md:w-32 md:h-20">
+              <img class="demo w-full h-full object-cover cursor-pointer opacity-60 hover:opacity-100" src="image/Galeri/spot13.jpeg" onclick="currentSlide(5)" alt=" Tebing dekat di Samping Pantai">
+            </div>
+            <div class="flex-none w-24 h-16 md:w-32 md:h-20">
+              <img class="demo w-full h-full object-cover cursor-pointer opacity-60 hover:opacity-100" src="image/Galeri/spot16.jpg "onclick="currentSlide(6)" alt="Sore yang berawan">
+            </div>
+            <div class="flex-none w-24 h-16 md:w-32 md:h-20">
+              <img class="demo w-full h-full object-cover cursor-pointer opacity-60 hover:opacity-100" src="image/Galeri/spot17.jpg" onclick="currentSlide(7)" alt="Sore menjelang Malam">
+            </div>
+            <div class="flex-none w-24 h-16 md:w-32 md:h-20">
+              <img class="demo w-full h-full object-cover cursor-pointer opacity-60 hover:opacity-100" src="image/Galeri/spot11.jpg" onclick="currentSlide(8)" alt="Ombak di Sore hari">
+            </div>
+            <div class="flex-none w-24 h-16 md:w-32 md:h-20">
+              <img class="demo w-full h-full object-cover cursor-pointer opacity-60 hover:opacity-100" src="image/Galeri/spot10.jpg" onclick="currentSlide(9)" alt="Pemandangan malam hari">
+            </div>
+            <div class="flex-none w-24 h-16 md:w-32 md:h-20">
+              <img class="demo w-full h-full object-cover cursor-pointer opacity-60 hover:opacity-100 " src="image/Galeri/spot12.jpg" onclick="currentSlide(10)" alt="Sisi Malam">
+            </div>
+          </div>
+        </div>
+        
+
+    </section>
+    <footer id="kontak" class="bg-gradient-to-r from-cyan-500 to-blue-500  flex w-full  justify-center items-center h-auto py-10 px-6 -mt-5 overflow-hidden">
+  
+      <!-- Left Side: Bantuan & Suport -->
+    <div class=" flex w-[93%] flex-start">
+      <div class="flex flex-col space-y-6 md:space-y-6 px-4 ">
+         <div class="flex flex-col items-center">
+            <h1 class="font-montserrat text-xs font-bold underline mb-1 underline-offset-4 md:text-2xl">BANTUAN</h1>
+            <a href="https://bromotour.co.id/harga-tiket-masuk-wisata-pantai-papuma-jember/" class="text-[8px] md:text-xl">Harga Tiket</a>
+            <a href="https://maps.app.goo.gl/jf6ys6xWtsm5TgYm7" class="text-[8px] md:text-xl">Lokasi</a>
+            <a href="https://www.accuweather.com/id/id/papuma/680795/hourly-weather-forecast/680795#google_vignette" class="text-[8px] md:text-xl">Cuaca</a>
+        </div>
+      </div>
+
+      <div class="flex flex-col items-center space-y-6 px-4">
+        <div class="flex flex-col items-center">
+          <h1 class="font-montserrat  text-xs font-bold underline mb-1 underline-offset-4 md:text-2xl">Informasi</h1>
+          <a href="#" class="text-[8px]  md:text-xl  hover:text-white ">Tentang kami</a>
+          <a href="https://jembertourism.jemberkab.go.id/product/pantai-watu-ulo" class="text-[8px]  md:text-xl  hover:text-white ">Watu ulo</a>
+          <a href="https://id.wikipedia.org/wiki/Pantai_Papuma" class="text-[8px]  md:text-xl  hover:text-white ">Informasi</a>
+        </div>
+      </div>
+    
+      <!-- Center: Social Media & Copyright -->
+      <div class="flex flex-col items-center space-y-6 pl-4 px-4">
+        <div class="flex flex-col items-center">
+          <h1 class="font-montserrat text-black text-xs font-bold underline mb-1 underline-offset-4 md:text-2xl">Sosmed</h1>
+          <a href="https://www.instagram.com/base_rpl.1/profilecard/?igsh=MWNucHVranBxbnlyOA==" class="text-[8px] hover:text-white md:text-xl">Instagram</a>
+          <a href="#" class="text-[8px] hover:text-white md:text-xl">Facebook</a>
+          <a href="https://youtube.com/@repltu?si=1HZXeA8faGaIOu2a" class="text-[8px] hover:text-white md:text-xl">Youtube</a>
+        </div>
+      </div>
+    </div>
+      
+      <!-- Right Side: Logo -->
+      <div class="flex flex-col items-center ">
+        <img class="w-24 h-10 mr-10 md:w-48 md:h-20" src="image/logo.png" alt="Logo"> 
+        <h3 class="font-semibold font-montserrat text-[8px]">Logo By Dhafine</h3>
+      </div>
+        
+      </footer>
+      <div class="flex bg-gradient-to-r  from-cyan-500 pt-4 to-blue-500 justify-center content-center items-center w-full h-10">
+        <div class="flex justify-center content-center text-center pt-5  h-5">
+        <h2 class="text-white font-normal  text-[10px] md:text-lg">Copyright © 2024. FIFIVAN Semua hak Dilindungi</h2>
+        </div>
+      </div>
+      
+    
+
+    
+    
+    <script src="main.js"></script>
+    
+</body>
+</html>
+
+<!-- npx tailwindcss -i style/input.css -o style/output.css --watch -->

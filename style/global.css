@@ -1,0 +1,9 @@
+@layer base{
+    *{
+      scrollbar-width: none;
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+  }
+
+
